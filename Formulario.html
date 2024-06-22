@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Formulario</title>
+</head>
+<body bgcolor="aqua"><b>CUESTIONARIO</b> <br>
+<form type="text" action="malito:alecom@hotmail.com" method="post">
+<p>¿Cual es la naturaleza de tu comentario?<br><br>
+<input type="radio" name="naturaleza" value="Recomendacion"/>Recomendacion
+<input type="radio" name="naturaleza" value="Oferta Trabajo"/>Oferta Trabajo
+<input type="radio" name="naturaleza" value="Comunicacion"/>Comunicacion
+<input type="radio" name="naturaleza" value="Queja"/>Queja
+</p>
+
+<p>
+Educacion
+<select name="especificar">
+<option value="Basica">Basica</option>
+<option value="Preparatoria">Preparatoria</option>
+<option value="Tecnica" selected>Tecnica</option>
+
+<option value="Universidad">Universidad</option>
+</select> <br><br><br><br>
+</p>
+
+<p>
+Comentario <br>
+<textarea name="Comentarios" rows="10" cols="50" wrap=""></textarea>
+</p>
+
+<p>
+¿Como puedo comunicarme contigo?<br>
+<table><tr><td>Nombre:</td><td><input type="text" name="nombre" size="30"/> </td></tr>
+<tr> <td>Correo electronico:</td><td><input type="text" name="correo" size="30"/> </td></tr>
+<tr><td>Telefono:</td><td><input type="text" name="telefono" size="30"/></td></tr>
+</table>
+</p>
+
+<p>
+<input type="checkbox" name="regresar" checked="checked"/>Comunicate conmigo via correo electronico.
+</p>
+
+<p>
+<input type="checkbox" name="regresar"/>Comunicate conmigo por telefono.
+</p>
+
+<p>
+<input type="submit" value="Enviar"/>
+<input type="reset" value="Borrar"/>
+</p>
+
+</table>
+</body>
+</html>	
